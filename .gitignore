@@ -1,0 +1,86 @@
+# .NET build directories
+bin/
+obj/
+*.refactorlog
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+.vscode/
+*.csproj.user
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# DotNetCli Tool directories
+.tool/
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Azure Pipelines
+.pipeline/
+
+# npm packages
+node_modules/
+
+# VS Code
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Local configuration files
+# appsettings.Development.json
+appsettings.Local.json
+
+# Dotnet tool settings file
+.dotnet-tools.json
+
+# MacOS files
+.DS_Store
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Uncomment if you have secrets stored in environment files
+# *.env
+
+
+# SQL Server Database Project files
+*.sqlproj.user
+*.sqlproj.v11.suo
+*.mdf
+*.ldf
+*.dacpac
+*.bacpac
